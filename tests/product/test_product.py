@@ -9,7 +9,7 @@ def test_create_product() -> None:
         manufacturing_date="2023-06-13",
         expiration_date="2052-10-23",
         serial_number="QS71 VBJ6 9851 8Q7P E4D4 JNYC 3X25",
-        storage_instructions="Facere quisquam exercitationem laudantium qui. Praesentium ut praesentium laudantium unde officiis praesentium.",
+        storage_instructions="Facere quisquam etc..",
     )
 
     assert product.id == "7013"
@@ -18,5 +18,4 @@ def test_create_product() -> None:
     assert product.manufacturing_date == "2023-06-13"
     assert product.expiration_date == "2052-10-23"
     assert product.serial_number == "QS71 VBJ6 9851 8Q7P E4D4 JNYC 3X25"
-    assert product.storage_instructions == "Facere quisquam exercitationem laudantium qui. Praesentium ut praesentium laudantium unde officiis praesentium."
-
+    assert product.storage_instructions == "Facere quisquam etc.."

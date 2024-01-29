@@ -29,7 +29,6 @@ class JsonImporter(Importer):
                     elem["storage_instructions"],
                 ))
         return products
-            
 
 
 class CsvImporter:
